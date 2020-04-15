@@ -1,2 +1,3 @@
-# Unica-News-Bot
-Apposito bot per la comunicazione di problemi, consigli o idee del canale telegram @UnicaNews
+# Unica News Notification Bot
+Apposito bot per la comunicazione di problemi, consigli o idee del canale telegram @UnicaNew.
+Attualmente hostato su Heroku.
