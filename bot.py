@@ -13,6 +13,11 @@ def bop(bot, update):
     chat_id = update.message.chat_id
     bot.send_photo(chat_id=chat_id, photo=url)
 
+def bup(bot, update):
+    url = get_url()
+    chat_id = update.message.chat_id
+    bot.send_photo(chat_id=chat_id, photo=url)
+
 def main():
     updater = Updater(os.environ['TOKEN'])
     dp = updater.dispatcher
