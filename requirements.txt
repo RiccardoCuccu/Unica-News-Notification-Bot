@@ -1,1 +1,3 @@
-python-telegram-bot
+django
+gunicorn
+django-heroku
