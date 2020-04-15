@@ -14,7 +14,7 @@ def bop(bot, update):
     bot.send_photo(chat_id=chat_id, photo=url)
 
 def main():
-    updater = Updater(os.environ.get['TOKEN'])
+    updater = Updater(os.environ['TOKEN'])
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop',bop))
     updater.start_polling()
