@@ -1,0 +1,53 @@
+UNICA News Amministrazione e Organizzazione > http://people.unica.it/amministrazioneeorganizzazione/feed/
+UNICA News Architettura > http://corsi.unica.it/architettura/feed/
+UNICA News Assistenza Sanitaria > http://corsi.unica.it/assistenzasanitaria/feed/
+UNICA News Beni Culturali e Spettacolo > http://corsi.unica.it/beniculturaliespettacolo/feed/
+UNICA News Biologia > http://corsi.unica.it/biologia/feed/
+UNICA News Biotecnologie Industriali > http://corsi.unica.it/biotecnologieindustriali/feed/ [NON FUNZIONA DAL 22/09/2017]
+UNICA News Chimica > http://people.unica.it/chimica/feed/
+UNICA News CTF > http://people.unica.it/lmechimicaetecnologiafarmaceutiche/feed/
+UNICA News Economia e Finanza > http://corsi.unica.it/economiaefinanza/feed/
+UNICA News Economia e Gestione Aziendale > http://corsi.unica.it/economiaegestioneaziendale/feed/
+UNICA News Economia e Gestione dei Servizi Turistici > http://people.unica.it/economiaegestioneservizituristici/feed/
+UNICA News Educazione Professionale > http://corsi.unica.it/educazioneprofessionale/feed/
+UNICA News Farmacia > http://people.unica.it/lmefarmacia/feed/
+UNICA News Filosofia > http://people.unica.it/filosofia/feed/
+UNICA News Fisica > http://corsi.unica.it/fisica/feed/
+UNICA News Fisioterapia > http://corsi.unica.it/fisioterapia/feed/
+UNICA News Giurisprudenza > http://corsi.unica.it/giurisprudenza/feed/
+UNICA News Igiene Dentale > http://corsi.unica.it/igienedentale/feed/
+UNICA News Infermieristica > http://corsi.unica.it/infermieristica/feed/
+UNICA News Informatica > http://corsi.unica.it/informatica/feed/
+UNICA News Ingegneria & Architettura > http://facolta.unica.it/ingegneriarchitettura/feed/
+UNICA News Ingegneria Biomedica > http://corsi.unica.it/ingegneriabiomedica/feed/
+UNICA News Ingegneria Chimica > http://people.unica.it/ingegneriachimica/feed/
+UNICA News Ingegneria Civile > http://corsi.unica.it/ingegneriacivile/feed/
+UNICA News Ingegneria Elettrica > http://corsi.unica.it/ingegneriaelettrica/feed/
+UNICA News Ingegneria Elettronica > http://corsi.unica.it/ingegneriaelettronica/feed/
+UNICA News Ingegneria Energetica > http://corsi.unica.it/ingegneriaenergetica/feed/
+UNICA News Ingegneria Meccanica > http://people.unica.it/meccanica/feed/
+UNICA News Ingegneria per l'Ambiente e il Territorio > http://corsi.unica.it/ambienteeterritorio/feed/
+UNICA News Lettere > http://people.unica.it/lettere/feed/
+UNICA News Lingue e Comunicazione > http://people.unica.it/lingueecomunicazione/feed/
+UNICA News Lingue e Culture per la Mediazione Linguistica > http://people.unica.it/lingueecultureperlamediazionelinguistica/feed/
+UNICA News Logopedia > http://corsi.unica.it/logopedia/feed/
+UNICA News Matematica > http://corsi.unica.it/matematica/feed/
+UNICA News Medicina e Chirurgia > http://corsi.unica.it/medicinaechirurgia/feed/
+UNICA News Ostetricia > http://corsi.unica.it/ostetricia/feed/
+UNICA News Scienze Ambientali e Naturali > http://corsi.unica.it/scienzeambientalienaturali/feed/
+UNICA News Scienze dei Servizi Giuridici > http://corsi.unica.it/scienzedeiservizigiuridici/feed/
+UNICA News Scienze dell'Architettura > http://corsi.unica.it/scienzedellarchitettura/feed/
+UNICA News Scienze dell'Educazione e della Formazione > http://people.unica.it/scienzedelleducazioneedellaformazione/feed/
+UNICA News Scienze della Comunicazione > http://people.unica.it/scienzedellacomunicazione/feed/
+UNICA News Scienze delle Attività Motorie e Sportive > http://corsi.unica.it/scienzedelleattivitamotorieesportive/feed/
+UNICA News Scienze e Tecniche Psicologiche > http://people.unica.it/scienzeetecnichepsicologiche/feed/
+UNICA News Scienze Economiche Giuridiche e Politiche > http://facolta.unica.it/segp/feed/
+UNICA News Scienze Geologiche > http://corsi.unica.it/scienzegeologiche/feed/
+UNICA News Scienze Naturali > http://corsi.unica.it/scienzenaturali/feed/
+UNICA News Scienze Politiche > http://people.unica.it/scienzepolitiche/feed/
+UNICA News Studi Umanistici > http://facolta.unica.it/studiumanistici/feed/
+UNICA News Tecniche della Prevenzione nell'Ambiente e nei Luoghi di Lavoro > http://corsi.unica.it/tecnichedellaprevenzione/feed/
+UNICA News Tecnica della Riabilitazione Psichiatrica > http://corsi.unica.it/tecnicadellariabilitazionepsichiatrica/feed/
+UNICA News Tecniche di Laboratorio Biomedico > http://corsi.unica.it/tecnichedilaboratoriobiomedico/feed/
+UNICA News Tecniche di Radiologia Medica, per Immagini e Radioterapia > http://corsi.unica.it/tecnichediradiologiamedica/feed/
+UNICA News Tossicologia > http://people.unica.it/ltossicologia/feed/
