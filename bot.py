@@ -22,6 +22,7 @@ def main():
     updater = Updater(os.environ['TOKEN'])
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop',bop))
+    dp.add_handler(CommandHandler('bup',bup))
     updater.start_polling()
     updater.idle()
 
