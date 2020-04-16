@@ -8,6 +8,10 @@ def get_url():
     url = contents['url']
     return url
 
+#Send a message when the command /start is issued
+def start(bot, update):
+    update.message.reply_text('Hi!')
+
 def bop(bot, update):
     url = get_url()
     chat_id = update.message.chat_id
