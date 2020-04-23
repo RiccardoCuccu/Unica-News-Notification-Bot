@@ -1,3 +1,2 @@
 jsonlib==1.6.1
-logging==0.4.9.6
 python-telegram-bot==12.6.1
