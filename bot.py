@@ -2,6 +2,7 @@ import telegram
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
+import re
 import logging
 
 ### Languages ###
@@ -14,14 +15,18 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 updater = Updater(os.environ['TOKEN'], use_context=True)
 dispatcher = updater.dispatcher
 
+### Messages ###
+info_message = 'Apposito bot per la comunicazione di problemi, consigli o idee del canale @UnicaNews. Scrivici tramite il pulsante "Feedback" (ricorda che non sarà data alcuna risposta riguardo gli orari di lezioni ed esami, essi potranno essere visionati sugli appositi siti di indirizzo).'
+unknown_message = "Mi dispiace, questo non e' un comando supportato."
+welcome_message = 'Benvenuto nel bot di @UnicaNews!\nCome posso esserti utile?'
+
 ### Keyboards ###
 standard_keyboard = telegram.ReplyKeyboardMarkup([["Info"], ["Link","Canali","Utility"], ["Donazione"], ["Feedback"], ["Ringraziamenti"]])
 base_keyboard = telegram.ReplyKeyboardMarkup([["Utility"]])
 
 ### Functions ###
 def start(update, context):																					# start with a message
-    #context.bot.send_message(chat_id=update.effective_chat.id, text="Benvenuto nel bot di @UnicaNews!\nCome posso esserti utile?")
-    context.bot.send_message(chat_id=update.message.chat_id, text="Benvenuto nel bot di @UnicaNews!\nCome posso esserti utile?", reply_markup=standard_keyboard)
+    context.bot.send_message(chat_id=update.message.chat_id, text=welcome_message, reply_markup=standard_keyboard)
 
 def echo(update, context):																					# echo all non-command messages it receives
     context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
@@ -34,15 +39,22 @@ def hello(update, context):																					# say "Ciao USER_FIRST_NAME!"
     update.message.reply_text('Ciao {}!'.format(update.message.from_user.first_name))
 
 def unknown(update, context):																				# reply to all commands that were not recognized by the previous handlers
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Mi dispiace, questo non e' un comando supportato.")
+    context.bot.send_message(chat_id=update.effective_chat.id, text=unknown_message)
+
+def display_info(update, context):																			# display info_message
+    context.bot.send_message(chat_id=update.message.chat_id, text=info_message)
 
 ### Handlers ###
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(CommandHandler('start', start))														# responds to the /start command
-dispatcher.add_handler(MessageHandler(Filters.text & (~Filters.command), echo))   							# replies to any message without command
+
 dispatcher.add_handler(CommandHandler('caps', caps))														# responds to the /caps command
 dispatcher.add_handler(CommandHandler('hello', hello))														# responds to the /hello command
+
+dispatcher.add_handler(MessageHandler(Filters.regex(re.compile(r'^info$', re.IGNORECASE)), display_info))	# responds to the "Info" button
+dispatcher.add_handler(MessageHandler(Filters.text & (~Filters.command), echo))   							# replies to any message without command
 dispatcher.add_handler(MessageHandler(Filters.command, unknown))											# responds to any unknown command
+
 
 #### INLINE COMMAND ###
 #from telegram import InlineQueryResultArticle, InputTextMessageContent
